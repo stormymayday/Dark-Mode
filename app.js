@@ -4,6 +4,7 @@ const toggleBtn = document.querySelector('.btn');
 // Adding 'click' event listener to the toggle button
 toggleBtn.addEventListener('click', () => {
 
-    console.log(toggleBtn);
+    // Targetting the HTML element and toggling the '.dark-theme' class
+    document.documentElement.classList.toggle('dark-theme');
 
 });
