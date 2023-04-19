@@ -11,7 +11,9 @@ Global Styles
     --clr-grey: #64748b;
 }
 
-.dark-theme {}
+.dark-theme {
+    --clr-bcg: #282c35;
+}
 
 *,
 ::after,
