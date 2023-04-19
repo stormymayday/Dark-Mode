@@ -1,4 +1,9 @@
 // Selecting the toggle button
 const toggleBtn = document.querySelector('.btn');
 
-console.log(toggleBtn);
+// Adding 'click' event listener to the toggle button
+toggleBtn.addEventListener('click', () => {
+
+    console.log(toggleBtn);
+
+});
