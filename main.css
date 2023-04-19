@@ -14,6 +14,7 @@ Global Styles
 .dark-theme {
     --clr-bcg: #282c35;
     --clr-font: #fff;
+    --clr-primary: #ffa7c4;
 }
 
 *,
