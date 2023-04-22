@@ -1,6 +1,11 @@
 // Selecting the toggle button
 const toggleBtn = document.querySelector('.btn');
 
+// Selecting the '.articles' section
+const articles = document.querySelector('.articles');
+
+console.log(articles);
+
 // Adding 'click' event listener to the toggle button
 toggleBtn.addEventListener('click', () => {
 
