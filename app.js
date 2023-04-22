@@ -2,7 +2,7 @@
 const toggleBtn = document.querySelector('.btn');
 
 // Selecting the '.articles' section
-const articles = document.querySelector('.articles');
+const articlesContainer = document.querySelector('.articles');
 
 // Iterating over the data array from data.js
 const articlesData = data.map(({ title, date, length, snippet }) => {
