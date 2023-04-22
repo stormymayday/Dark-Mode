@@ -35,3 +35,5 @@ toggleBtn.addEventListener('click', () => {
     }
 
 });
+
+console.log(moment);
