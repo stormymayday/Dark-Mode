@@ -1,4 +1,4 @@
-const articles = [
+const data = [
     {
         id: 1,
         title: 'the WET Codbase',

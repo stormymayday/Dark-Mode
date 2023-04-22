@@ -14,5 +14,4 @@ toggleBtn.addEventListener('click', () => {
         toggleBtn.textContent = 'dark';
     }
 
-
 });
