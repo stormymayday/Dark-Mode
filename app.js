@@ -5,13 +5,13 @@ const toggleBtn = document.querySelector('.btn');
 const articles = document.querySelector('.articles');
 
 // Iterating over the data array from data.js
-const articlesData = data.map(({ title, date, snippet }) => {
+const articlesData = data.map(({ title, date, length, snippet }) => {
 
     return `<article class="post">
     <h2>${title}</h2>
     <div class="post-info">
     <span>${date}</span>
-    <span>5 min read</span>
+    <span>${length} min read</span>
     </div>
     <p>${snippet}</p>
     </article>`;
