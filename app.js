@@ -18,7 +18,8 @@ const articlesData = data.map(({ title, date, length, snippet }) => {
 
 }).join('');
 
-console.log(articlesData);
+// Rendering the articlesData inside the articlesContainer
+articlesContainer.innerHTML = articlesData;
 
 // Adding 'click' event listener to the toggle button
 toggleBtn.addEventListener('click', () => {
