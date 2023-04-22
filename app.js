@@ -7,9 +7,18 @@ const articles = document.querySelector('.articles');
 // Iterating over the data array from data.js
 const articlesData = data.map(({ title, date, snippet }) => {
 
-    console.log(title, date, snippet);
+    return `<article class="post">
+    <h2>${title}</h2>
+    <div class="post-info">
+    <span>${date}</span>
+    <span>5 min read</span>
+    </div>
+    <p>${snippet}</p>
+    </article>`;
 
-});
+}).join('');
+
+console.log(articlesData);
 
 // Adding 'click' event listener to the toggle button
 toggleBtn.addEventListener('click', () => {
