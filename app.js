@@ -7,10 +7,13 @@ const articlesContainer = document.querySelector('.articles');
 // Iterating over the data array from data.js
 const articlesData = data.map(({ title, date, length, snippet }) => {
 
+    // Formatting date using Moment JS
+    const momentDate = moment(date).format('MMMM Do, YYYY');
+
     return `<article class="post">
     <h2>${title}</h2>
     <div class="post-info">
-    <span>${date}</span>
+    <span>${momentDate}</span>
     <span>${length} min read</span>
     </div>
     <p>${snippet}</p>
@@ -35,5 +38,3 @@ toggleBtn.addEventListener('click', () => {
     }
 
 });
-
-console.log(moment);
