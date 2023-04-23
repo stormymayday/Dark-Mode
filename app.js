@@ -5,7 +5,7 @@ import { data } from './utils/data.js';
 import getElement from './utils/getElement.js';
 
 // Selecting the toggle button
-const toggleBtn = document.querySelector('.btn');
+const toggleBtn = getElement('.btn');
 
 // Selecting the '.articles' section
 const articlesContainer = document.querySelector('.articles');
