@@ -8,7 +8,7 @@ import getElement from './utils/getElement.js';
 const toggleBtn = getElement('.btn');
 
 // Selecting the '.articles' section
-const articlesContainer = document.querySelector('.articles');
+const articlesContainer = getElement('.articles');
 
 // Iterating over the data array from data.js
 const articlesData = data.map(({ title, date, length, snippet }) => {
