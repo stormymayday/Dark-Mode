@@ -1,3 +1,4 @@
+// Named Export
 export const data = [
     {
         id: 1,

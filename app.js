@@ -1,5 +1,5 @@
 // Named Import
-import { data } from './data.js';
+import { data } from './utils/data.js';
 
 // Selecting the toggle button
 const toggleBtn = document.querySelector('.btn');
